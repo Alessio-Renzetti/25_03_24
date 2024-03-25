@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@500&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.menucontainer .bottone {
+    width: 150px;
+    padding: 10px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+.menucontainer{
+    display: flex;
+    flex-direction: column;
+}
+.bottone:hover{
+    background-color:hsl(215, 90%, 50%);
+    color: white;
+}
+.immagine{
+    width:60px;
+    height:70px;
+}
+.corsista{
+    padding: 0px 0px 15px 15px;
+    font-size: 25px
+}
+.fix_testo_corsista{
+    position: relative;
+    bottom: 23px;
+    color: white;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+}
+.mesi_display{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.mese{
+    border: 1px solid;
+    width: fit-content;
+    background-color: #fff;
+    padding: 2px;
+    border-radius: 4px;
+}
+.font_mese{
+    text-align: center;
+    border-bottom: 1px dotted;
+}
+.settimana{
+    display: flex;
+    flex-direction: row;
+}
+.sfondo{
+    width: 100vw;
+    height: 100vh;
+    background: radial-gradient(#425ff9, #f44670);
+    padding: 15px;
+    flex-grow: 1
+}
+.fix_settimana{
+    text-align: right;
+    width: 50px ;
+}
+.fix_giorno{
+    text-align: right;
+    width: 50px ;
+    opacity: 0.6;
+}
+.presente{
+    text-align: right;
+    width: 50px ;
+    color: white;
+    background-color: green;
+    opacity: 0.6;
+}
+.assente{
+    text-align: right;
+    width: 50px ;
+    color: white;
+    background-color: red;
+    opacity: 0.6;
+}
